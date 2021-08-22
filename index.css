@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital,wght@0,400;1,700&family=Oswald&family=Pacifico&family=Sacramento&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #1687a7;
+  --secondary: #276678;
+  --primary-light: #d3e0ea;
+  --primary-dark: #03506f;
+  --background: #f4f9f9;
+  --width-break: 800px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  color: var(--primary);
+  background-color: var(--background);
+}
+
+.head {
+    font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: var(--primary);
+  padding: 10px;
+  font-size: 3rem;
+}
+.wrapper {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  border: solid 3px var(--primary-dark);
+  border-radius: 8px;
+  width: var(--width-break);
+  padding: 20px;
+  background-image: url(https://cdn.pixabay.com/photo/2016/01/07/13/35/minion-1125790__340.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
+}
+.wrapper > label{
+    font-family: 'Open Sans', sans-serif;
+    font-size:3rem;
+}
+.wrapper > textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+textarea {
+  border: solid 5px var(--primary-dark);
+  font-size: 26px;
+  border-radius: 5px;
+  width: 80%;
+  color: var(--primary);
+  font-size: 20px;
+  opacity: 55%;
+}
+#translate {
+  font-family: "Open Sans", sans-serif;
+  padding: 8px;
+  cursor: pointer;
+  border: solid 3px var(--primary-dark);
+  border-radius: 5px;
+  font-size: 2rem;
+}
+#translate:hover {
+  background-color: var(--secondary);
+  color: white;
+}
